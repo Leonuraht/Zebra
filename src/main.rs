@@ -30,6 +30,8 @@ fn main() -> std::io::Result<()> {
     };
     println!("\nfiledata : \n{}\nflags: {:?}", file_data, flags);
     let ouy = lexer::lexer(file_data);
-    println!("{:}", ouy);
+    // for i in 0..ouy.len(){
+    //     println!("{}", ouy[i]);
+    // }
     Ok(())
 }
